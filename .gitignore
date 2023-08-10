@@ -1,0 +1,33 @@
+# Ignore Mac system files
+.DS_store
+
+# Ignore node_modules folder
+node_modules
+
+# Ignore all pytorch model 
+**/*.pth
+**/*.pt
+
+# Ignore datasets/pkl files
+datasets/pkl_files/
+datasets/starfire_pkl_files/
+
+# Ignore taming lpips pretrained model
+eval_scripts/taming/
+eval_scripts/incep_dir
+notebook/taming/
+
+# Ignore all npz files
+**/*.npz
+
+*~
+~$*
+__pycache__
+*pyc
+.idea
+logs/
+
+
+
+
+
